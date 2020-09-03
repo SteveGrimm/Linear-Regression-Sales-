@@ -1,18 +1,9 @@
-# Unit2 Project 1
+# Linear Regression - Sales
 
-During Project 4 I built a model to predict whether company employees were likely to churn or not.
-To solve this Problem I built a Logistic Regression Model using
+Building a linear model to predict sales numbers and determining which variables impact sales the most, with a summary presentation. Methods used are:
 
-* Scaling, with Pipeline
-* Grid cross validation
+* Feature Selection (Correlation, Unique values, Statistical significance)
+* Testing (Train/Test Split, Scoring metrics)
 
-and the following libraries:
-
-from sklearn.linear_model import LogisticRegression
-from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import StandardScaler
-from sklearn.pipeline import Pipeline
-from sklearn.model_selection import GridSearchCV
-from sklearn.metrics import classification_report
-
-My Model was able to correctly identify churning employees 75% of the time.
+Used libraries:
+* Statsmodels, SKLearn
